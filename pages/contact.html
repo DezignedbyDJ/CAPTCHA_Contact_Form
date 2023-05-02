@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        *,
+        *:before,
+        *:after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+       
+        .form-header {
+            font-size: 18px;
+            border-bottom: 1px solid #f4f4f4;
+            padding: 10px 0;
+        }
+       
+        body {
+            font-family: arial, verdana;
+            font-size: 15px;
+            padding: 0 25px;
+            width: 710px;
+            border: 1px solid #666;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+            border-top: 3px solid #3c8dbc;
+        }
+       
+        form {
+        margin: 30px 0;
+        }
+       
+        .form-label {
+            float: left;
+            width: 100px;
+        }
+       
+        .form-row {
+            margin: 12px 0;
+        }
+       
+        .form-field {}
+        input,
+        textarea,
+        select {
+            width: 500px;
+            height: 28px;
+            padding: 2px 6px;
+        }
+       
+        textarea {
+            height: 50px;
+        }
+       
+        input[type=radio],
+        input[type=checkbox] {
+            width: 15px;
+            color: red;
+            height: 14px;
+        }
+       
+        input[type=submit],
+        input[type=reset] {
+            width: 100px;
+            margin-right: 50px;
+            background-color: #3c8dbc;
+            border-color: #367fa9;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        input[type=submit]:hover,
+        input[type=reset]:hover {
+            background-color: #367fa9;
+        }
+        .form-field:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-header">Contact Form</div>
+        <form name="form1" action="" method="">
+            <div class="form-row">
+                <div class="form-label">Name</div>
+                <div class="form-field">
+                    <input type="text" name="name" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">Password</div>
+                <div class="form-field">
+                    <input type="password" name="password" />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">Phone</div>
+                <div class="form-field">
+                    <input type="number" name="phone" placeholder="Please enter a number only" /> </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">Email</div>
+                <div class="form-field">
+                    <input type="email" name="email" placeholder="Please enter email" /> </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">Gender</div>
+                <div class="form-field">
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female</div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">Preference:</div>
+                <div class="form-field">
+                    <input type="checkbox" name="Preference">Morning
+                    <input type="checkbox" name="Preference">Evening</div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">Message</div>
+                <div class="form-field">
+                    <textarea name="message" rows="5" cols="50"></textarea>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">Service</div>
+                <div class="form-field">
+                    <select name="service">
+                        <option value="one">Service 1</option>
+                        <option value="two">Service 2</option>
+                        <option value="three">Service 3</option>
+                        <option value="four">Service 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-label">Date of Birth</div>
+                <div class="form-field">
+                    <input type="date" name="date" />
+                </div>
+            </div>
+            <fieldset>
+            <legend> Optional Items</legend>
+                <div class="form-row">
+                    <div class="form-label">Website</div>
+                    <div class="form-field">
+                        <input type="url" name="website" />
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-label">Upload file</div>
+                    <div class="form-field">
+                        <input type="file" name="file"> </div>
+                </div>
+            </fieldset>
+            <div class="form-row">
+                <div class="form-label"> &nbsp; </div>
+                <div class="form-field">
+                    <input type="reset" name="reset" />
+                    <input type="submit" name="message" value="Submit"  />
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+ 

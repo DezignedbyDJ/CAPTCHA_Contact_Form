@@ -1,0 +1,132 @@
+html,body{margin:0;padding:0}
+
+body{font: 76% arial,sans-serif;text-align:center}
+
+p{margin:0 10px 10px}
+
+a{padding:5px; text-decoration:none; color:#000000;}
+
+
+h2 {
+    font-weight: 400;
+    color: #000;
+    font-size: 19px;
+    font-family: 'Franziska, Georgia, Cambria';
+} 
+
+h2 span.hashtag {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000;
+    font-weight: 400;
+}
+
+h2 strong {
+   color: #5299D3;
+   font-weight: 800;
+}
+
+blockquote {
+   font-style: italic;
+   padding-left: 3rem;
+   font-size: 19px;
+   line-height: 26.22px;
+   font-family: 'Franziska, Georgia, Cambria';
+}
+
+
+/* start of header section*/
+#headersection  { background-color:#266DD3; border: 0px solid #23C9FF; height: 150px;  }
+#headersection h1 {height:80px;line-height:80px;margin:0;padding-left:10px;}
+/* end of header section*/
+
+
+.logo {
+    width: 100px;
+    float: left;
+    height: 100px;
+    position: absolute;
+
+    
+}
+
+.logo p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: auto;
+}
+
+/* start of container  section*/
+#container{text-align:left ; border: 1px solid #23C9FF;}
+#container{width:1000px;margin:0 auto}
+
+/* end of container  section*/
+
+
+/* start of navigation  section*/
+#navigation {background:#040F0F; border: 1px solid blue;}
+
+#navigation ul{margin:15px 0; padding:0; list-style-type:none;}
+
+#navigation li{margin-bottom:5px;}
+
+#navigation {float:left; width:100px; margin-left:-1000px}
+
+/* end of navigation  section */
+
+/* start of extra section */
+#extra {background:#266DD3; border: 1px solid #23C9FF;}
+#extra {float:left;width:145px;margin-left:-150px}
+
+/* end of extra section */
+
+
+/* start of footer section */
+#footer {background:#266DD3; border: 1px solid #23c9ff;}
+#footer p{margin:0;padding:5px 10px}
+#footer {clear:left;width:100%}
+
+/* end of footer section */
+
+
+/* start of wrapper section */
+
+#wrapper {float:left;width:100%;}
+
+/* end  of wrapper section */
+
+
+/* start of content section */
+
+#content {margin: 0 150px}
+
+#content p{line-height:1.4}
+
+/* end of content section */
+
+/* start of menu */
+
+.menubar a {
+ float: left;
+ display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.menubar a:hover {
+    background: #ddd;
+    color: #ffffff;
+}
+
+.menubar {
+    overflow: hidden;
+    background-color:  #5299D3;
+    position: relative;
+    width: 1000px;
+}
+
+.scroll {
+    background-color: #5299D3;
+    border: none;
+}

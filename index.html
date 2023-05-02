@@ -1,72 +1,72 @@
-<!DOCTYPE html>
+
+
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
- 
+
+<title> My Website - Home </title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<script src="scripts/scroller.js"></script>
+
+
 </head>
 <body>
-  <div class="container">  
-    <form id="contact" action="#" method="post">
-      <h3>Quick Contact</h3>
-      <h4>Contact us today, and get reply within 24 hours!</h4>
- 
-      <fieldset>
-        <input placeholder="Your name" name="name" type="text" tabindex="1" autofocus>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Email Address" name="email" type="email" tabindex="2">
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Phone Number" name="tel" type="tel" tabindex="3" >
-      </fieldset>
-      <fieldset>
-        <input placeholder="Type your subject line" type="text" name="subject" tabindex="4">
-      </fieldset>
-      <fieldset>
-        <textarea name="message" placeholder="Type your Message Details Here..." tabindex="5"></textarea>
-      </fieldset>
-      <div>
-         <p class="success"> <mail_handler.php echo $success;?></p>
-         <p class="failed"> <mail_handler.php echo $failed;?></p>
-      </div>
-      <div class="g-recaptcha" data-sitekey="6LeiDpslAAAAAKG5Ac7H-1f2RDoeAdpKpoVX2tHp">
-         
-      </div>
-      <fieldset>
-       
-        <button type="submit" name="submit" value="Submit" data-submit="...Sending"  >Submit </button>
-      </fieldset>
+<div id="container">
+  <div id="headersection">
+                        <div class="logo">
+                          <a href="index.html"><img src="images/logo.png" alt="IT207"></a>
+                          <p align="center">DEZIGNEDBYDJ</p>
+                        </div>
+  </div>
 
-    </form>
-   
-   
-  <script>
-      document.getElementById("contact").addEventListener("submit",function(evt)
-  {
+  <div class="menubar">
+    <a href="index.html">Home</a>
+    <a href="pages/contact.html">Contact Us</a>
+    <a href="https://www.behance.net/dezignedbydj">Portfolio</a>
+  </div>
+
+    <div id="wrapper">
+      <div id="content">
+        <h1><strong>Welcome</strong></h1>
+        <h2>Feel free to browse!</h2>
+        <p><strong>DAKOTA PARKER IS A SELF TAUGHT GRAPHIC ARTIST AND ILLUSTRATOR BASED IN JONESPORT, MAINE.</strong></p>
+        <p>Dakota Parker is a self taught Graphic Designer. He currently enrolls in college to work upon a 4 year degree to become a more professional designer, so he can hopefully join a big time organization! Dakota started designing back in 2017 creating the simplest basketball cards for <strong><em>NBA2K</em></strong>, a website called 2kmtcentral and used <strong><em>Photopea</em></strong> as his use of designing. Now he currently makes the most insane creations, with 1.2K followers on <strong><em>Instagram</em></strong> and has celebrities such as <strong><em>Kevin Durant</em></strong>, <strong><em>Ray Allen</em></strong>, <strong><em>Mark DeCarlo</em></strong>, <strong><em>Eric Bauza</em></strong> and <strong><em>Rob Paulsen</em></strong> seen his work. He would love to achieve higher expectations in the skill.</p>
+        <p>Graphic designers are professionals who use their creativity and technical skills to visually communicate messages or ideas through various forms of media. They work with clients or employers to create visual concepts, often using software tools like <strong><em>Adobe Photoshop</em></strong>, <strong><em>Illustrator</em></strong>, and <strong><em>InDesign</em></strong>, to develop designs for websites, advertisements, product packaging, logos, and more.</p>
+        <p>Graphic designers must have a deep understanding of typography, color theory, and composition, as well as an eye for aesthetics and detail. They also need to be skilled in communication and collaboration, as they often work closely with other professionals such as marketers, writers, and developers to ensure that their designs meet the needs and objectives of their clients or employers.</p>
+      </div>
+    </div>
+
+  <div id="navigation">
+    <p><font color="#fff"> Social Media </FONT></p>
+        <ul>
+                    <li><a href="https://www.instagram.com/dezignedbydj?igshid=YmMyMTA2M2Y="><font color="#fff">Instagram</font></a></li>
+          <li><a href="https://www.youtube.com/channel/UCoriYfiZr-ZEJspt5Fmo3Aw"><font color="#fff">YouTube</font></a></li>
+        </ul>
+
  
-  var response = grecaptcha.getResponse();
-  if(response.length == 0)
-  {
-    //reCaptcha not verified
-    alert("please verify you are humann!");
-    evt.preventDefault();
-    return false;
-  }
-  //captcha verified
-  //do the rest of your validations here
- 
-});
-     
-  </script>   
- 
- 
-   
-     
+  </div>
+  
+  
+
+
+  <div id="extra">
+    <p><strong>More stuff here.</strong></p>
+    <p> Business Email - djdezignz2003@gmail.com Game Tester for Warner Bro's MultiVersus 🎮 Done work for Lego Ninjago's Rock Band The Fold 🎸| I want to go to a college that will best suit my skills and improve it to join a organization and make digital art work for teams or companies that do video games, movies etc.</p>
+  </div>
+
+  <div id="footer">
+    
+    <CENTER>
+      <FORM NAME="marquee1">
+      <INPUT NAME="text" SIZE=110 class="scroll"
+      VALUE=" FOR MORE INFORMATION AND MY PORTFOLIO GO TO: behance.net/dezignedbydj"
+      >
+      </FORM>
+      </CENTER>
+    
+
+  
+  </div>
 </div>
-</body>
 </html>
